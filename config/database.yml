@@ -9,6 +9,12 @@ default: &default
   pool: 5
   timeout: 5000
 
+production:
+  <<: *default
+  database: d7uoc05q3373dl
+  username: xxxepcbmpckhqt
+  password: 639741903dbe64bd7751a0119927da82db19bea1176620bc4c839a212dd65b26
+
 development:
   <<: *default
   database: db/development.sqlite3
